@@ -10,6 +10,7 @@ $$\dot{x} = \left(J(u) - R\right)\nabla H(x) + Gu , $$
 $$ y = G^\top \nabla H(x) , $$
 
 where, $x\in\mathbb{R}^n$ is the state vector, $u\in\mathbb{R}^m$ the input vector, and $y\in\mathbb{R}^m$ the output vector. The matrix $J(u)$ represents interconnection while $R$ represents dissipation.  The Hamiltonian function $H:\mathbb{R}^n\rightarrow\mathbb{R}$, for the applications studied here, is given by a quadratic form:
+
 $$ H(x) = \frac{1}{2}x^\top Q x, $$
 
 where $Q\succ 0$
