@@ -1,8 +1,8 @@
 # Effect of discretization
 
-# Preliminaries 
+## Preliminaries 
 
-## Port-Controlled Hamiltonian Systems
+### Port-Controlled Hamiltonian Systems
 
 Port-controlled Hamiltonian systems (pH-system) are a specialized class of dynamical systems that integrate concepts from Hamiltonian mechanics with port-based modeling, allowing for the analysis and control of complex physical systems. A large class of power-electronic converters can be represented by the following state-space model:
 
@@ -14,7 +14,7 @@ $$ H(x) = \frac{1}{2}x^\top Q x, $$
 
 where $Q\succ 0$
 
-## Passivity of PCHS
+#### Passivity of PCHS
 
 Passivity is a key property shared by many physical sistems (see [[Van-der-Schaft & Jeltsema 2014]](https://ieeexplore.ieee.org/document/8187102) for more details):  
 
@@ -22,6 +22,6 @@ Passivity is a key property shared by many physical sistems (see [[Van-der-Schaf
 
 $$\dot{S} \leq u^\top y$$
 
-# Motivation 
+## Motivation 
 
 Time discretization techniques are required to simulate the dynamics modeled as port-Hamiltonian systems; however, the discretization process may lead to the loss of passivity properties. Therefore, this repository contains multiple examples of power electronic converters to illustrate how passivity can be analytically preserved in the discrete-time domain for different discretization techniques, including Forward Euler, Backward Euler, Midpoint, Exact, and RK4 methods. The repository presents sufficient conditions for passivity preservation and validates them through passivity indices and sensitivity analysis. Additionally, it explains how to obtain optimal parameter values when the discretization method depends on specific tuning parameters.
