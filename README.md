@@ -17,7 +17,7 @@ where $Q\succ 0$
 
 #### Passivity of PCHS
 
-Passivity is a key property shared by many physical sistems (see [[Van-der-Schaft & Jeltsema 2014]](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://people.math.ethz.ch/~hiptmair/Seminars/PHS_24/VSJ14.pdf) for more details):  
+Passivity is a key property shared by many physical sistems (see [[Van-der-Schaft & Jeltsema 2014]](https://people.math.ethz.ch/~hiptmair/Seminars/PHS_24/VSJ14.pdf) for more details):  
 
 **Definition:** A system $\dot{x} = f(x, u)$, $y = h(x, u)$, where $x \in \mathcal{X}\subseteq \mathbb{R}^n$ and $u, y \in \mathbb{R}^m$, is called *passive* if there exists a differentiable storage function $S : \mathcal{R} \rightarrow \mathbb{R}$ with $S(x) \geq 0, x \in \mathcal{X}$ , satisfying the differential dissipation inequality:
 
